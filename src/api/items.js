@@ -1,0 +1,41 @@
+[
+    {
+        date: "02/05/2020",
+        item: {
+            bananas: 401,
+            strawberries: 58,
+            apples: 290,
+            oranges: 191
+        }
+
+    },
+    {
+        date: "05/05/2020",
+        item: {
+            bananas: 354,
+            strawberries: 98,
+            apples: 13,
+            oranges: 123
+        }
+
+    },
+    {
+        date: "08/05/2020",
+        item: {
+            bananas: 51,
+            strawberries: 120,
+            apples: 321,
+            oranges: 159
+        }
+
+    },
+    {
+        date: "11/05/2020",
+        item: {
+            bananas: 287,
+            strawberries: 75,
+            apples: 214,
+            oranges: 187
+        }
+    }
+]

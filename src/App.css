@@ -1,3 +1,146 @@
+body {
+  background: cornflowerblue;
+  box-sizing: border-box;
+}
+
+.fruity-app {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+  filter: drop-shadow(2.312px 2.509px 4.5px rgba(0,0,0,0.23));
+  border: 1px solid #0081b1;
+  border-radius: 4px;
+  font-family: Helvetica;
+  min-height: 700px;
+  padding-bottom: 25px;
+}
+
+.fruity-app::after {
+  content: "";
+  background: url("background.jpg");
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.app-title {
+  margin-top: 35px;
+  color: white;
+  text-shadow: 1px 2px #0081b1;
+  letter-spacing: .05em;;
+}
+
+.date, .select-query {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.date-picker {
+  margin: 5% 0;
+  border: 1px solid cornflowerBlue;
+  border-radius: 5px;
+  filter: drop-shadow(1.312px 1.509px 2.5px rgba(0,0,0,0.23));
+  padding: 3px 0;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: .1em;
+  color: #0081b1;
+
+}
+
+header {
+  margin: 15px 0;
+  display: flex;
+  width: 60%;
+}
+
+
+.vega-embed {
+  margin-top: 20px;
+  background: white;
+  justify-items: center;
+  display: flex;
+  filter: drop-shadow(2.312px 2.509px 4.5px rgba(0,0,0,0.23));
+  border: 1px solid #0081b1;
+  width: 100%;
+  padding: 0!important;
+}
+
+.select-query {
+  text-align: right;
+  letter-spacing: .1em;
+  color: white;
+  font-size: 14px;
+  text-shadow: 1px 2px #333;
+}
+
+.results {
+  color: #0081b1;
+  width: 80%;
+  padding: 5px;
+}
+
+th img {
+  width:25px;
+  height:25px;
+}
+
+h4 {
+  margin: 15px 0!important;
+  text-shadow: 2px 1px #333;
+  color: white;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #0081b1;
+  padding: 3px;
+}
+
+td {
+  width:20%; 
+  padding-top: 10px;
+}
+
+.currentDate {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.table-container {
+  width:100%;
+  background: white;
+}
+
+footer {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  text-align:right;
+  text-shadow: 1px 1px #999;
+}
+
+footer img {
+  width: 20px;
+  height: auto;
+}
+
 .App {
   text-align: center;
 }
