@@ -1,8 +1,8 @@
 import React from 'react';
-import orangeImg from './../orange.png';
-import appleImg from './../apple.png';
-import strawberryImg from './../strawberry.png';
-import bananaImg from './../banana.png';
+import orangeImg from './../img/orange.png';
+import appleImg from './../img/apple.png';
+import strawberryImg from './../img/strawberry.png';
+import bananaImg from './../img/banana.png';
 
 const ResultsTable = (props) => {
     return (
@@ -10,10 +10,10 @@ const ResultsTable = (props) => {
             <table>
                 <tr>
                    <th>date</th>
-                   <th><img src={bananaImg}/></th>
-                    <th><img src={strawberryImg}/></th>
-                    <th><img src={appleImg}/></th>
-                    <th><img src={orangeImg}/></th>
+                   <th><img src={bananaImg} alt="banana" /></th>
+                    <th><img src={strawberryImg} alt="strawberry" /></th>
+                    <th><img src={appleImg} alt="apple" /></th>
+                    <th><img src={orangeImg} alt="orange" /></th>
                 </tr>
                 <tr>
                 <td><span className="currentDate">{props.date}</span></td>
