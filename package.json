@@ -10,7 +10,7 @@
     "react": "^16.13.1",
     "react-datepicker": "^2.15.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-vega": "^7.3.0",
     "vega": "^5.11.1",
     "vega-lite": "^4.12.0"
